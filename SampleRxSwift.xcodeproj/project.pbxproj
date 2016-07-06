@@ -14,6 +14,10 @@
 		3911D7301D2D6A6000312A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3911D72E1D2D6A6000312A7C /* LaunchScreen.storyboard */; };
 		3911D73B1D2D6A6000312A7C /* SampleRxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3911D73A1D2D6A6000312A7C /* SampleRxSwiftTests.swift */; };
 		3911D7461D2D6A6000312A7C /* SampleRxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3911D7451D2D6A6000312A7C /* SampleRxSwiftUITests.swift */; };
+		3911D7571D2D6DB800312A7C /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3911D7531D2D6DB800312A7C /* RxBlocking.framework */; };
+		3911D7581D2D6DB800312A7C /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3911D7541D2D6DB800312A7C /* RxCocoa.framework */; };
+		3911D7591D2D6DB800312A7C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3911D7551D2D6DB800312A7C /* RxSwift.framework */; };
+		3911D75A1D2D6DB800312A7C /* RxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3911D7561D2D6DB800312A7C /* RxTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		3911D7411D2D6A6000312A7C /* SampleRxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleRxSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3911D7451D2D6A6000312A7C /* SampleRxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRxSwiftUITests.swift; sourceTree = "<group>"; };
 		3911D7471D2D6A6000312A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3911D7531D2D6DB800312A7C /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		3911D7541D2D6DB800312A7C /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		3911D7551D2D6DB800312A7C /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		3911D7561D2D6DB800312A7C /* RxTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTests.framework; path = Carthage/Build/iOS/RxTests.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3911D7571D2D6DB800312A7C /* RxBlocking.framework in Frameworks */,
+				3911D7581D2D6DB800312A7C /* RxCocoa.framework in Frameworks */,
+				3911D7591D2D6DB800312A7C /* RxSwift.framework in Frameworks */,
+				3911D75A1D2D6DB800312A7C /* RxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +89,10 @@
 		3911D7191D2D6A5F00312A7C = {
 			isa = PBXGroup;
 			children = (
+				3911D7531D2D6DB800312A7C /* RxBlocking.framework */,
+				3911D7541D2D6DB800312A7C /* RxCocoa.framework */,
+				3911D7551D2D6DB800312A7C /* RxSwift.framework */,
+				3911D7561D2D6DB800312A7C /* RxTests.framework */,
 				3911D7241D2D6A5F00312A7C /* SampleRxSwift */,
 				3911D7391D2D6A6000312A7C /* SampleRxSwiftTests */,
 				3911D7441D2D6A6000312A7C /* SampleRxSwiftUITests */,
@@ -399,6 +415,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SampleRxSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tv.shinoki.SampleRxSwift;
@@ -410,6 +430,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SampleRxSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tv.shinoki.SampleRxSwift;
