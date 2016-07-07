@@ -16,6 +16,7 @@
 		3911D75F1D2D794B00312A7C /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3911D7541D2D6DB800312A7C /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3911D7601D2D794B00312A7C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3911D7551D2D6DB800312A7C /* RxSwift.framework */; };
 		3911D7611D2D794B00312A7C /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3911D7551D2D6DB800312A7C /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		391334541D2E1B820024CB8C /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391334531D2E1B820024CB8C /* ValidationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		3911D7311D2D6A6000312A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3911D7541D2D6DB800312A7C /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		3911D7551D2D6DB800312A7C /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		391334531D2E1B820024CB8C /* ValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				3911D72C1D2D6A6000312A7C /* Assets.xcassets */,
 				3911D72E1D2D6A6000312A7C /* LaunchScreen.storyboard */,
 				3911D7311D2D6A6000312A7C /* Info.plist */,
+				391334531D2E1B820024CB8C /* ValidationViewController.swift */,
 			);
 			path = SampleRxSwift;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3911D7281D2D6A6000312A7C /* ViewController.swift in Sources */,
+				391334541D2E1B820024CB8C /* ValidationViewController.swift in Sources */,
 				3911D7261D2D6A6000312A7C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
