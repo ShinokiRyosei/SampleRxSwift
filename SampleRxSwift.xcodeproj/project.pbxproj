@@ -86,16 +86,40 @@
 			isa = PBXGroup;
 			children = (
 				3911D7251D2D6A6000312A7C /* AppDelegate.swift */,
-				3911D7271D2D6A6000312A7C /* ViewController.swift */,
+				39318CBA1D310135007C75CD /* Numbers */,
+				39318CBB1D31013E007C75CD /* Validation */,
+				39318CBC1D310146007C75CD /* ImagePicker */,
 				3911D7291D2D6A6000312A7C /* Main.storyboard */,
 				3911D72C1D2D6A6000312A7C /* Assets.xcassets */,
 				3911D72E1D2D6A6000312A7C /* LaunchScreen.storyboard */,
 				3911D7311D2D6A6000312A7C /* Info.plist */,
+			);
+			path = SampleRxSwift;
+			sourceTree = "<group>";
+		};
+		39318CBA1D310135007C75CD /* Numbers */ = {
+			isa = PBXGroup;
+			children = (
+				3911D7271D2D6A6000312A7C /* ViewController.swift */,
+			);
+			name = Numbers;
+			sourceTree = "<group>";
+		};
+		39318CBB1D31013E007C75CD /* Validation */ = {
+			isa = PBXGroup;
+			children = (
 				391334531D2E1B820024CB8C /* ValidationViewController.swift */,
+			);
+			name = Validation;
+			sourceTree = "<group>";
+		};
+		39318CBC1D310146007C75CD /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
 				3967080E1D2FB5DC002BAFB8 /* ImagePickerViewController.swift */,
 				396708101D2FB67C002BAFB8 /* UIImagePickerController+RxCreate.swift */,
 			);
-			path = SampleRxSwift;
+			name = ImagePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
