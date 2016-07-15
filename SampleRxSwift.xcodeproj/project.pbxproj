@@ -19,6 +19,7 @@
 		391334541D2E1B820024CB8C /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391334531D2E1B820024CB8C /* ValidationViewController.swift */; };
 		3967080F1D2FB5DC002BAFB8 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3967080E1D2FB5DC002BAFB8 /* ImagePickerViewController.swift */; };
 		396708111D2FB67C002BAFB8 /* UIImagePickerController+RxCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396708101D2FB67C002BAFB8 /* UIImagePickerController+RxCreate.swift */; };
+		39D8C7711D38C48000CE9E86 /* GeolocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D8C7701D38C48000CE9E86 /* GeolocationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,7 @@
 		391334531D2E1B820024CB8C /* ValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
 		3967080E1D2FB5DC002BAFB8 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
 		396708101D2FB67C002BAFB8 /* UIImagePickerController+RxCreate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController+RxCreate.swift"; sourceTree = "<group>"; };
+		39D8C7701D38C48000CE9E86 /* GeolocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeolocationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				3911D72C1D2D6A6000312A7C /* Assets.xcassets */,
 				3911D72E1D2D6A6000312A7C /* LaunchScreen.storyboard */,
 				3911D7311D2D6A6000312A7C /* Info.plist */,
+				39D8C7701D38C48000CE9E86 /* GeolocationViewController.swift */,
 			);
 			path = SampleRxSwift;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				3967080F1D2FB5DC002BAFB8 /* ImagePickerViewController.swift in Sources */,
 				396708111D2FB67C002BAFB8 /* UIImagePickerController+RxCreate.swift in Sources */,
 				3911D7261D2D6A6000312A7C /* AppDelegate.swift in Sources */,
+				39D8C7711D38C48000CE9E86 /* GeolocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
